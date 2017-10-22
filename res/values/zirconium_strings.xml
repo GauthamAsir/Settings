@@ -29,5 +29,8 @@
 
     <!-- Zirconium  Settings -->
     <string name="zirconium_settings_title">Zirconium Hub</string>
-    <string name="zirconium_settings_summary">Get Zirconised</string>
+    <string name="zirconium_settings_summary">Get Zirconised</string> 
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
 </resources>
