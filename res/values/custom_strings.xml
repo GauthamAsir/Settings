@@ -145,5 +145,4 @@
     <string name="thermal_control_per_app_video_playback">Video playback</string>
     <string name="thermal_control_per_app_dialer">Dialer</string>
     <string name="thermal_control_per_app_camera">Camera</string>
-
 </resources>
