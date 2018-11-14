@@ -330,5 +330,9 @@
     <dimen name="reset_checkbox_title_text_size">18sp</dimen>
     <dimen name="reset_checkbox_summary_text_size">14sp</dimen>
 
+    <!-- QS Tile Styles -->
     <dimen name="qs_styles_layout_opacity" format="float">0.50</dimen>
+    <dimen name="qs_styles_layout_background_size">70dp</dimen>
+    <dimen name="qs_styles_layout_foreground_size">30dp</dimen>
+    <dimen name="qs_styles_tile_preview_spacing">15dp</dimen>
 </resources>
