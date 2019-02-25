@@ -137,5 +137,8 @@
     <color name="battery_maybe_color_dark">#fdd835</color> <!-- Material Yellow 600 -->
     <color name="battery_bad_color_dark">#f44336</color> <!-- Material Red 500 -->
 
+    <!-- Accent picker -->
+    <color name="accent_picker_white_accent">@android:color/white</color>
+    <color name="accent_picker_dark_accent">@android:color/black</color>
 </resources>
 
