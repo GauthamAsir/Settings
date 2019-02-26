@@ -35,7 +35,7 @@ import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.SystemUiThemePreferenceController;
-import com.android.settings.display.QsTileStylePreferenceController;
+import com.android.settings.display.QsTileStylesPreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
@@ -51,6 +51,8 @@ import java.util.List;
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
 
+
+    private static QsTileStylesPreferenceController mQsTileStylesPreference;
     public static final String KEY_DISPLAY_SIZE = "display_settings_screen_zoom";
 
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
@@ -105,7 +107,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
         controllers.add(new ColorModePreferenceController(context));
-        controllers.add(new QsTileStylePreferenceController(context));
+        controllers.add(mQsTileStylesPreference = new QsTileStylesPreferenceController(context, lifecycle, fragment));
         return controllers;
     }
 
