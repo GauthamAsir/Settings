@@ -66,5 +66,5 @@
     <string name="qs_tile_style_circle_trim">Circle with trim</string>
     <string name="qs_tile_style_two_tone_circle">Two-toned circle with trim</string>
     <string name="qs_tile_style_squircle_trim">Squircle with trim</string>
-
+    <string name="qs_styles_dialog_title">Select a QS tile style</string>
 </resources>
