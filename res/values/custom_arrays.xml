@@ -139,7 +139,7 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-
+        </string-array>
     <!-- Notch behavior -->
     <string-array name="display_cutout_mode_entries" translatable="false">
         <item>@string/display_cutout_mode_normal</item>
