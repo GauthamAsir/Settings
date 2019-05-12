@@ -58,7 +58,7 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
             lifecycle.addObserver(this);
         }
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("fontservice"));
+                ServiceManager.getService("dufont"));
     }
 
     @Override

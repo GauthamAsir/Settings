@@ -41,7 +41,7 @@ public class FontDialogPreference extends CustomDialogPreference {
         super(context, attrs);
         mContext = context;
         mFontService = IFontService.Stub.asInterface(
-                ServiceManager.getService("fontservice"));
+                ServiceManager.getService("dufont"));
     }
 
     @Override
